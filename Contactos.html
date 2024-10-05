@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/asignacion2/style/contactos.css">
+    <title>Contactos</title>
+</head>
+<body>
+    <nav class="nav-menu">
+        <a href="/asignacion2/index.html">Home</a>
+        <a href="Personalidad.html">Personalidad</a>
+        <a href="Habilidad.html">Habilidades</a>
+        <a href="Proyectos.html">Proyectos</a>
+        <a href="Contactos.html">Contactanos</a>
+    </nav>
+    <main>
+        <!--  5- Una pagina de contacto donde debe colocar un formulario con los campos de nombre, apellido, correo y una descripción donde el cliente especifique los servicios que desea (esta pagina debe tener un enlace que me permita volver al home) -->
+        <div class="form">
+            <h1>Formulario</h1>
+            <form action="#">
+                <div>
+                    <input type="text" name="Nombre" placeholder="Nombre" id="Nombre" required/>
+                </div>
+                <div>
+                    <input type="text" name="apellido" id="apellido" placeholder="Apellido" required/>
+                </div>
+                <div>
+                    <input type="email" name="email" id="email" placeholder="Correo Electronico" required/>
+                </div>
+                <div>
+                    <textarea name="descripcion" id="descripción" cols="30" rows="10" placeholder="Escriba el servicio que desea"></textarea>
+                </div>
+                <button class="botonk" type="submit">Enviar</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
